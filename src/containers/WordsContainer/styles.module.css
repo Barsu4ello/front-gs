@@ -1,0 +1,6 @@
+.root {
+    flex-grow: 1;
+    display: flex;
+    background-color: rgba(17, 224, 224, 0.91);
+    padding: 5px;
+}

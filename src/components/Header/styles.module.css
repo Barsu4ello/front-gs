@@ -1,0 +1,41 @@
+.root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color: #112ec7;
+}
+
+.siteName {
+    font: bold italic 30px serif;
+    color: white;
+    margin-right: auto;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.siteName:hover {
+    color: #e8dede;
+    text-shadow: 1px 1px 3px black;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    background-color: #0fbda3;
+
+    transition: 0.2s;
+    margin-left: 10px;
+    border-radius: 20px;
+    box-shadow: 4px 3px 4px rgb(0, 0, 0, 0.5);
+    padding: 1px 7px 1px;
+}
+
+.link:hover {
+    opacity: 0.9;
+}
+
+.link:last-child {
+    margin-right: 20px;
+}

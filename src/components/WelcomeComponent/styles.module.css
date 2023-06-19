@@ -1,0 +1,10 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-grow: 1;
+    background-color: rgba(17, 224, 224, 0.91);
+    font-size: 40px;
+}

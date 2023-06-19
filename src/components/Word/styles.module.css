@@ -1,0 +1,60 @@
+.root{
+    display: flex;
+    flex-direction: row;
+}
+
+.word{
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 2px;
+    padding: 2px;
+    background-color: #d7d4d4;
+    width: 150px;
+}
+
+.word:focus{
+    outline: none;
+    background-color: white;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 1.7);
+}
+
+.buttonRemove{
+    background-color: red;
+    border-radius: 50px;
+    margin-left: 5px;
+    transition: 0.2s;
+}
+
+.buttonRemove:hover{
+    color: white;
+    box-shadow: 4px 3px 4px rgb(0, 0, 0, 0.5);
+
+}
+
+.buttonUpdate{
+    background-color: orange;
+    border-radius: 50px;
+    margin-left: 5px;
+    transform: translateY(2px);
+}
+
+.buttonUpdate:hover{
+    color: white;
+    box-shadow: 4px 3px 4px rgb(0, 0, 0, 0.5);
+    transform: translateY(2px);
+}
+
+.buttonSave{
+    background-color: #32f543;
+    border-radius: 50px;
+    margin-left: 5px;
+    transform: translateY(2px);
+}
+
+.buttonSave:hover{
+    color: white;
+    box-shadow: 4px 3px 4px rgb(0, 0, 0, 0.5);
+    transform: translateY(2px);
+}
+
+

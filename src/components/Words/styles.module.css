@@ -1,0 +1,16 @@
+.buttonAddWord {
+    background-color: #32f543;
+    border-radius: 20px;
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.divAddingNewWord {
+    margin-left: auto;
+    margin-right: 20px;
+    text-align: center;
+}
+
+
